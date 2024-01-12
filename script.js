@@ -3,7 +3,7 @@ function calcularFactorial(numero) {
     let resultado = 1;
 
     for (let i = 1; i <= numero; i++) {
-        resultado =resultado * i;
+        resultado *= i;
     }
 
     return resultado;
@@ -13,6 +13,7 @@ function calcularFactorial(numero) {
 function esNumero(valor) {
     return !isNaN(parseFloat(valor)) && isFinite(valor);
 }
+
 
 let numero;
 
